@@ -24,14 +24,6 @@ export const skillsData: Skill[] = [
   { name: 'AWS', rating: 4, category: 'Cloud & Infrastructure' },
   { name: 'Cloud Platforms', rating: 4, category: 'Cloud & Infrastructure' },
   
-  // Industrial Automation
-  { name: 'PLC Programming', rating: 5, category: 'Industrial Automation' },
-  { name: 'SCADA Systems', rating: 5, category: 'Industrial Automation' },
-  { name: 'Industrial Automation', rating: 5, category: 'Industrial Automation' },
-  { name: 'Allen-Bradley', rating: 5, category: 'Industrial Automation' },
-  { name: 'Siemens', rating: 4, category: 'Industrial Automation' },
-  { name: 'Mitsubishi', rating: 4, category: 'Industrial Automation' },
-  
   // Full-Stack Development
   { name: 'Full-Stack Development', rating: 5, category: 'Full-Stack Development' },
   { name: 'System Architecture', rating: 5, category: 'Full-Stack Development' },
@@ -48,15 +40,23 @@ export const skillsData: Skill[] = [
   { name: 'Portuguese', rating: 5, category: 'Languages' },
   { name: 'English', rating: 5, category: 'Languages' },
   { name: 'Spanish', rating: 4, category: 'Languages' },
-  { name: 'French', rating: 3, category: 'Languages' },
-  { name: 'Japanese', rating: 3, category: 'Languages' },
+  { name: 'French', rating: 2, category: 'Languages' },
+  { name: 'Japanese', rating: 1, category: 'Languages' },
+  
+  // Industrial Automation
+  { name: 'PLC Programming', rating: 5, category: 'Industrial Automation' },
+  { name: 'SCADA Systems', rating: 5, category: 'Industrial Automation' },
+  { name: 'Industrial Automation', rating: 5, category: 'Industrial Automation' },
+  { name: 'Allen-Bradley', rating: 5, category: 'Industrial Automation' },
+  { name: 'Siemens', rating: 4, category: 'Industrial Automation' },
+  { name: 'Mitsubishi', rating: 4, category: 'Industrial Automation' },
   
   // Other Skills
   { name: 'PCI Compliance', rating: 5, category: 'Other Skills' },
   { name: 'ISO 8583', rating: 4, category: 'Other Skills' },
   { name: 'Payment Systems', rating: 5, category: 'Other Skills' },
-  { name: 'Medical Device Development', rating: 4, category: 'Other Skills' },
-  { name: 'Biomedical Engineering', rating: 4, category: 'Other Skills' },
+  { name: 'Medical Device Development', rating: 5, category: 'Other Skills' },
+  { name: 'Biomedical Engineering', rating: 5, category: 'Other Skills' },
 ];
 
 export const groupSkillsByCategory = (skills: Skill[]) => {

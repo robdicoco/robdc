@@ -17,7 +17,7 @@ export const linktreeData: LinkItem[] = [
   },
   {
     title: 'Portfolio',
-    url: 'https://roberto-pavusa.dev',
+    url: 'https://github.com/robdicoco?tab=repositories',
     icon: '🌐'
   },
   {
