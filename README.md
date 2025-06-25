@@ -207,13 +207,7 @@ interface LinkItem {
 }
 ```
 
-## Contact
-
-For questions or support, please contact:
-- Email: pavusa@gmail.com
-- LinkedIn: https://www.linkedin.com/in/roberto-pavusa-junior
-- Portfolio: https://roberto-pavusa.dev
 
 ## License
 
-This project is licensed under the MIT License. 
+This project is licensed under the [GPL V2 License](LICENSE).
