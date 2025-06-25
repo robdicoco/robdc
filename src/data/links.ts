@@ -15,19 +15,19 @@ export const linktreeData: LinkItem[] = [
     url: 'mailto:pavusa@gmail.com',
     icon: '📧'
   },
-  {
-    title: 'Portfolio',
-    url: 'https://github.com/robdicoco?tab=repositories',
-    icon: '🌐'
-  },
+  // {
+  //   title: 'Portfolio',
+  //   url: 'https://github.com/robdicoco?tab=repositories',
+  //   icon: '🌐'
+  // },
   {
     title: 'GitHub',
     url: 'https://github.com/robdicoco/',
     icon: '🐙'
-  },
-  {
-    title: 'Resume',
-    url: 'https://roberto-pavusa.dev/resume',
-    icon: '📄'
   }
+  // {
+  //   title: 'Resume',
+  //   url: 'https://roberto-pavusa.dev/resume',
+  //   icon: '📄'
+  // }
 ]; 
